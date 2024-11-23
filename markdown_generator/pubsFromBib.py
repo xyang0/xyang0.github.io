@@ -57,6 +57,7 @@ def html_escape(text):
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
+    paper_category = "manuscripts" if pubsource == "journal" else "conferences"
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
@@ -116,6 +117,8 @@ for pubsource in publist:
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
+
+            md += """\ncategory: """ + paper_category
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
