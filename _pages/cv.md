@@ -11,54 +11,57 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical Engineering, Rensselaer Polytechnic Institute
+* M.S. in Applied Mathematics, Rensselaer Polytechnic Institute
+* M.S. in Electronic Engineering, Tsinghua University
+* B.S. in Electronic Engineering, Tsinghua University
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* April 2019: Senior Researcher
+  * Tencent AI Lab, Seattle, WA
+  * Directions: LLMs, LVLMs, Natural Language Processing, Deep Learning
+  * Supervisor: Dr. Dong Yu
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2015: Researcher
+  * Bell Labs, Murray Hill, NJ
+  * Directions: Deep Learning, Computer Vision, Machine Learning
+  * Supervisor: Dr. Larry O'Gorman
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* August 2010: Research Assistant
+  * Rensselaer Polytechnic Institute, Troy, NY
+  * Directions: Computer Vision, Machine Learning
+  * Supervisor: Prof. Qiang Ji
+
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+  {% endfor %}</ul> -->
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+  {% endfor %}</ul> -->
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  {% endfor %}</ul> -->
+
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Serve as reviewer for conferences including ICLR, NeurIPS, ACL, EMNLP, NAACL, CVPR, AAAI, etc.
+* Serve as reviewer for journals including IEEE Trans. PAMI, IEEE Trans. Audo Speech Lang. Process., PRL, etc.
+* Serve as area chair for ICPR.
