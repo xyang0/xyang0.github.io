@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Xiaoyang Wang"
+title: "My Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
